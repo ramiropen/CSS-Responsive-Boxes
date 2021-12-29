@@ -1,3 +1,137 @@
+
 body {
-  background: blanchedalmond;
+  background: #660066;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-style: none;
 }
+
+* {
+  border: 5px solid #953553;
+}
+/* First Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  margin-left: 10px;
+  border-color: #800080;
+}
+
+.a {
+  display: flex;
+  align-content: center;
+  width: 270px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #efbbff;
+  color: white;
+}
+
+.b{
+  display: flex;
+  width: 270px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #efbbff;
+  color: white;
+}
+
+.c {
+  width: 270px;
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-color: #efbbff;
+  color: white;
+}
+
+h1{
+  position: static;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  border-style: none;
+}
+
+.hb {
+  margin-top: 7em;
+}
+
+/* Second Container */
+.container2 {
+  border-color: #800080;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 700px; 
+  position: relative;
+}
+
+.a2 {
+  border-color: #efbbff;
+  display: flex;
+  align-content: center;
+  width: 670px;
+  height: 140px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.b2{
+  border-color: #efbbff;
+  display: flex;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.c2 {
+  border-color: #efbbff;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-start;
+  width: 144px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: -330px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 340px;
+  color: white;
+}
+
+.ha2 {
+  position: relative;
+  top: 40px;
+}
+
+.hc2 {
+  position: relative;
+  top: 110px;
+}
+
+.hb2 {
+  position: relative;
+  top: 110px;
+}
+

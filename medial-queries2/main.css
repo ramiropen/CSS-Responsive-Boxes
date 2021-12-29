@@ -1,3 +1,293 @@
 body {
-  background: papayawhip;
+  background: #3c1518;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-style: none;
+}
+
+* {
+  border: 5px solid #f2f3ae;
+}
+
+/* first container */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  margin-left: 10px;
+  border-color: #69140e;
+  text-align: center;
+}
+
+span {
+  display: flex;
+  align-content: center;
+  position: relative;
+  top: 4px;
+  left: 125px;
+  border: none;
+  font-size: 2em;
+}
+
+.a {
+  display: flex;
+  align-content: center;
+  width: 270px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #a44200;
+  color: white;
+}
+
+.a1 {
+  position: relative;
+  top: 1px;
+}
+
+.b{
+  display: flex;
+  width: 270px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #a44200;
+  color: white;
+}
+
+.b1 {
+  position: relative;
+  top: 100px;
+}
+/* column right */
+.rowContainer {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 60px;
+  width: 300px;
+  border-color: #a44200;
+  color: white;
+  font-size: 2em;
+}
+
+.c {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -14px;
+  border-color: #a44200;
+  color: white;
+}
+
+.d {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: 0px;
+  border-color: #a44200;
+  color: white;
+}
+
+.e {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: 14px;
+  border-color: #a44200;
+  color: white;
+}
+
+.f {
+  width: 270px;
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-color: #a44200;
+  color: white;
+}
+
+.F {
+  position: relative;
+  top: 10px;
+}
+
+
+
+/* Second container */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  margin-left: 10px;
+  border-color: #69140e;
+  text-align: center;
+}
+
+span2 {
+  display: flex;
+  align-content: center;
+  position: relative;
+  top: 4px;
+  left: 125px;
+  border: none;
+  font-size: 2em;
+}
+
+aBox {
+  border: none;
+  position: relative;
+  bottom: 10px;
+}
+
+.a2 {
+  display: flex;
+  align-content: center;
+  width: 570px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #a44200;
+  color: white;
+  position:relative;
+  right: 10px;
+  top: 10px;
+}
+
+.a2letter {
+  position: relative;
+  top: 70px;
+  left: 268px;
+}
+
+bBox {
+  border: none;
+  position: relative;
+  right: 10px;
+  top: -20px;
+  margin-bottom: 10px;
+}
+
+.b2 {
+  display: flex;
+  width: 425px;
+  height: 145px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #a44200;
+  color: white;
+}
+
+.b2letter {
+  position: relative;
+  top: 60px;
+  left: 200px;
+}
+/* column right */
+.rowContainer2 {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 60px;
+  width: 446px;
+  position: relative;
+  top: -30px;
+  border-color: #a44200;
+  color: white;
+  font-size: 2em;
+}
+
+.c2 {
+  width: 115px;
+  height: 90px;
+  position: relative;
+  top: -12px;
+  left: -7px;
+  border-color: #a44200;
+  color: white;
+}
+
+.c2letter {
+  position: relative;
+  top: 27px;
+  left: 45px;
+  font-size: 35px;
+}
+
+.d2 {
+  width: 115px;
+  height: 90px;
+  position: relative;
+  top: -12px;
+  left: 7px;
+  border-color: #a44200;
+  color: white;
+}
+
+.d2letter {
+  position: relative;
+  top: 27px;
+  left: 45px;
+  font-size: 35px;
+}
+
+.e2 {
+  width: 115px;
+  height: 90px;
+  position: relative;
+  top: -12px;
+  left: 18px;
+  border-color: #a44200;
+  color: white;
+}
+
+.e2letter {
+  position: relative;
+  top: 27px;
+  left: 45px;
+  font-size: 35px;
+}
+
+fbox {
+  width: 20px;
+  height: 87px;
+  border: none;
+}
+
+.f2 {
+  width: 126px;
+  display: flex;
+  height: 253px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-color: #a44200;
+  color: white;
+  position: relative;
+  left: 434px;
+  top: -275px;
+}
+
+.F2letter {
+  position: relative;
+  top: 100px;
+  left: 55px;
 }
