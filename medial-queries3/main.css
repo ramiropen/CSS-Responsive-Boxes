@@ -258,8 +258,8 @@ span {
   right: -12px;
 }
 
-.containerH {
-  border-color: #a5be7d;
+.container7 {
+  border: none;
   display: flex;
   position: absolute;
   top: 196px;
@@ -269,9 +269,21 @@ span {
   bottom: 10px;
 }
 
+.h2 {
+  border-color: #a5be7d;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0px;
+  left: 72px;
+  height: 304px;
+  width: 135px;
+  bottom: 50px;
+}
+
 .hletter2 {
   position: relative;
-  left: 60px;
+  left: 55px;
   top: 135px;
 }
 
